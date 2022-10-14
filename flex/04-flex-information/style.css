@@ -5,11 +5,35 @@ body {
 img {
   width: 100px;
   height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.cards {
+  padding: 0px 52px 0px 52px;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.text {
+  text-align: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  padding: 0px 105px 0px 105px;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: center;
 }
 
 /* do not edit this footer */
